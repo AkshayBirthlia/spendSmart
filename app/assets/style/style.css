@@ -1,0 +1,109 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  width: 70vw;
+  height: 100vh;
+  justify-self: center;
+  font-family: "Courier New", Courier, monospace;
+}
+#left-pannel {
+  display: flex;
+  width: 25vw;
+  padding: 1rem;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid rgb(200, 193, 193);
+}
+.sideBar-navigation {
+    color: rgb(108, 108, 108);
+    border-radius: 30px;
+    display: flex;
+  align-items: center;
+  padding: 0.4rem;
+}
+.icon {
+  width: 0.9rem;
+  height: 0.9rem;
+  margin-right: .3rem;
+}
+.iconDisplay {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2rem;
+  font-weight: 550;
+}
+#logoDisplay {
+  width: 1.7rem;
+  height: 1.7rem;
+}
+.sideBar-navigation:hover {
+  color: black;
+  transition: 0.3s;
+  background-color: rgb(232, 254, 241);
+  border-left: 7px solid rgb(102, 174, 102);
+}
+.sideBar-navigation-down {
+    color: rgb(108, 108, 108);
+    border-radius: 30px;
+  display: flex;
+  align-items: center;
+  padding: 0.4rem;
+  font-size: 0.67rem;
+}
+.sideBar-navigation-down:hover{
+    background-color: rgb(232, 254, 241);
+    color: black;
+}
+#right-pannel {
+  background-color: rgb(219, 219, 249);
+  width: 75vw;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  padding: 1.4rem;
+}
+#koala{
+    width: 200px;
+    height: 200px;
+}
+#navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid black;
+}
+#content{
+    padding-top: 20%;
+    text-align: center;
+}
+h3{
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+h4 {
+  font-weight: 100;
+  font-size: 0.67rem;
+}
+#addExpense{
+    margin-top: 3%;
+    padding: 2%;
+    border-radius: 7px;
+    font-size: .6rem;
+    font-weight: 600;
+    background-color: rgb(85, 236, 85);
+    border: none;
+}
+#addBox{
+    width: 40%;
+    height: 60%;
+    position: fixed;
+    border: 1px solid black;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    margin-bottom: 300px;
+    
+}
