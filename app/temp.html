@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="assets/style/style.css" />
+    <link rel="stylesheet" href="/temp/temp.css" />
   </head>
   <body>
     <div id="left-pannel">
@@ -55,7 +55,7 @@
       </div>
     </div>
     <div id="right-pannel">
-      <div class="navBar">
+      <div id="navBar">
         <div>Dashboard</div>
         <div>
           <img
@@ -63,70 +63,34 @@
             alt="notification"
             class="icon"
           />
-          <input type="date" />
+          <input type="datetime-local" />
         </div>
       </div>
-      <div class="content">
+      <div id="content">
         <img src="assets/img/koala.png" alt="koala" id="koala" />
         <h3>No expenses yet!</h3>
         <h4>It look like your wallet is taking a break.</h4>
         <h4>Add your first expense to start tracking.</h4>
-        <button class="addExpense">+ Add Money</button>
+        <button id="addExpense">+ Add Expense</button>
       </div>
-
-      <!-- <div class="addBox">
-        <div class="spaceBetween">
+    <div id="addBox">
+       <div class="spaceBetween">
           Add Money
-          <button class="closeBtn">
+          <button id="closeBtn">
             <img src="assets/img/cross.png" alt="x" class="icon" />
           </button>
         </div>
-
         <div>
           <h4>Amount</h4>
-          <div class="inputMoney">
+          <div>
             $
-            <input  class="inputField" type="number" placeholder="0.00" />
+            <input type="number" placeholder="0.00">
           </div>
-          <h4>Note (Optional)</h4>
-          <input type="text" placeholder="eg: Bussiness, salary">
-        </div>
-        <div>
-          <button class="addExpense">cancel</button>
-          <button class>Add Money</button>
-        </div>
-      </div> -->
 
-      <!-- <div class="addBox">
-        <div class="spaceBetween">
-          New Expense
-          <button class="closeBtn">
-            <img src="assets/img/cross.png" alt="x" class="icon" />
-          </button>
-        </div>
 
-        <div class="center">
-          <h4>Amount</h4>
-          <div class="inputMoney">
-            $
-            <input class="inputField" type="number" placeholder="0.00" />
-          </div>
-        </div>
-        <input type="text" id="expenseName" placeholder="Expense Name" />
-        <h4>Category</h4>
-        <div>
-          <button><img src="/app/assets/img/cutlery.png" alt="cutlery" class="icon">food</button>
-          <button><img src="/app/assets/img/bus.png" alt="bus" class="icon">Transport</button>
-          <button><img src="/app/assets/img/electricity.png" alt="utility" class="icon">Utilities</button>
-          <button><img src="/app/assets/img/media.png" alt="media" class="icon">Entertainment</button>
-        </div>
-        <input type="date" >
-        <div>
-          <button class="addExpense">cancel</button>
-          <button class>Add Money</button>
-        </div>
-      </div> -->
     </div>
-    <script src="src/source.js"></script>
+
+    </div>
+    <script src="/temp/temp.js"></script>
   </body>
 </html>

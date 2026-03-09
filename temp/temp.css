@@ -19,16 +19,16 @@ body {
   border: 1px solid rgb(200, 193, 193);
 }
 .sideBar-navigation {
-    color: rgb(108, 108, 108);
-    border-radius: 30px;
-    display: flex;
+  color: rgb(108, 108, 108);
+  border-radius: 30px;
+  display: flex;
   align-items: center;
   padding: 0.4rem;
 }
 .icon {
   width: 0.9rem;
   height: 0.9rem;
-  margin-right: .3rem;
+  margin-right: 0.3rem;
 }
 .iconDisplay {
   display: flex;
@@ -47,16 +47,16 @@ body {
   border-left: 7px solid rgb(102, 174, 102);
 }
 .sideBar-navigation-down {
-    color: rgb(108, 108, 108);
-    border-radius: 30px;
+  color: rgb(108, 108, 108);
+  border-radius: 30px;
   display: flex;
   align-items: center;
   padding: 0.4rem;
   font-size: 0.67rem;
 }
-.sideBar-navigation-down:hover{
-    background-color: rgb(232, 254, 241);
-    color: black;
+.sideBar-navigation-down:hover {
+  background-color: rgb(232, 254, 241);
+  color: black;
 }
 #right-pannel {
   background-color: rgb(219, 219, 249);
@@ -65,55 +65,51 @@ body {
   /* justify-content: space-between; */
   padding: 1.4rem;
 }
-#koala{
-    width: 200px;
-    height: 200px;
+#navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 3px solid black;
 }
-.navBar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 3px solid black;
-}
-.content{
-    padding-top: 20%;
-    text-align: center;
-}
-h3{
-    margin-top: 4%;
-    margin-bottom: 3%;
+h3 {
+  margin-top: 4%;
+  margin-bottom: 3%;
 }
 h4 {
   font-weight: 100;
   font-size: 0.67rem;
 }
-.addExpense{
-    margin-top: 3%;
-    padding: 2%;
-    border-radius: 7px;
-    font-size: .6rem;
-    font-weight: 600;
-    background-color: rgb(85, 236, 85);
-    border: none;
+#content {
+  padding-top: 20%;
+  text-align: center;
 }
-.addBox{
-    width: 30vw;
-    position: fixed;
-    border: 1px solid black;
-    display: flex;
-    flex-direction: column;
-    top: 100px;
-    /* text-align: center; */
-    justify-self: center;
-    background-color: white;
-    border-radius: 20px;
-    padding: 1rem;
+#koala {
+  width: 100px;
+  height: 100px;
 }
-.center{
-    /* display: flex; */
-    text-align: center;
+#addExpense {
+  margin-top: 3%;
+  padding: 2%;
+  border-radius: 7px;
+  font-size: 0.6rem;
+  font-weight: 600;
+  background-color: rgb(85, 236, 85);
+  border: none;
 }
-.closeBtn{
+#addBox {
+  width: 40%;
+  position: fixed;
+  border: 1px solid black;
+  display: flex;
+  top:100px;
+  text-align: center;
+  justify-self: center;
+  background-color: white;
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+#closeBtn{
     background-color: white;
     border-radius: 100%;
     padding-top: 3px;
@@ -126,21 +122,11 @@ h4 {
     justify-content: space-between;
     text-align: center;
 } 
-.closeBtn:hover{
+#closeBtn:hover{
     background-color: rgb(235, 237, 237);
 }
-.inputField{
-    width: 25%;
+input{
+    width: 20%;
     border: none;
     outline: none;
-    font-size: 1.5rem;
-}
-.inputMoney{
-    font-size : 1.5rem;
-}
-
-#expenseName{
-    border: none;
-    outline:none;
-    border-bottom:1px solid black;
 }
